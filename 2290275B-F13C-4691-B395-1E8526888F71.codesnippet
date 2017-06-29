@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@doc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/** 
+ @const 常量，与名称一致 eg. "NSURLErrorFailingURLErrorKey"
+ @enum 常量 eg. "NSURL-related Error Codes"
+ @function 函数
+ @class interface
+ @protocol myProtocol
+ @category myMainClass(myCategory)
+ @abstract 描述语句
+ @define MACRO_NAME
+ 
+ @discussion 进一步讨论
+ 
+ @warning 说明
+ 
+ @param 参数  参数说明
+ @param string A parameter that is passed in.
+ 
+ @return Whatever it returns.
+ 
+ @see `something`
+ */</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2290275B-F13C-4691-B395-1E8526888F71</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Appledoc - 方法说明</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@getter_vc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- &lt;#property#&gt; {
+    if (!_&lt;#iVar#&gt;) {
+        &lt;#Class#&gt; *vc = [self.storyboard instantiateViewControllerWithIdentifierUsingClass:[&lt;#Class#&gt; class]];
+        [self addChildViewController:vc];
+        _&lt;#iVar#&gt; = vc;
+    }
+    return _&lt;#iVar#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3D38751F-20AB-410C-8BEC-811E7598FEF0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ViewController Property Getter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>NSNotification</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>self.&lt;#observer#&gt; = [[NSNotificationCenter defaultCenter] addObserverForName:&lt;#MSG Name#&gt; object:nil queue:nil usingBlock:^(NSNotification *note) {
+    douto(note)
+}];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B5B1CA62-6162-4425-AD5B-ABEB57E660CC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Add observer using block</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Notification +Block</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

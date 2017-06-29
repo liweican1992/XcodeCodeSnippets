@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>RJPullGet</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    [[ZHNetworkManager sharedInstance]getWithRequestInfoWithoutModel:requestInfo success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        if ([responseObject objectForKey:@"state"]) {
+            NSNumber *number = [responseObject objectForKey:@"state"];
+            if (number.boolValue == 0) {
+                
+            }else{
+                [HTUIHelper addHUDToView:self.view withString:responseObject[@"msg"] hideDelay:1];
+            }
+        }else{
+            [HTUIHelper addHUDToView:self.view withString:@"Error" hideDelay:1];
+            
+        }
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        [HTUIHelper addHUDToView:self.view withString:@"Error" hideDelay:1];
+        
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D978AFD7-4B56-4364-B9C4-C23FB0957BB9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>RJPullGet</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>下拉刷新的网络请求</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
